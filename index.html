@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<meta charset="utf-8">
+<!--	[[1]]	# App title #		-->	
+	<title>Cost 2 meet</title>
+	<meta name="description" content="A WP8 that lets you know how much your app is cost">
+	<meta name="author" content="Venkata Koppaka: www.bluegenegeek.com">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">	
+	
+	<link rel="stylesheet" href="stylesheets/base.min.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+
+	<style type="text/css">
+
+/* 	[[3]] #Windows Phone App Website Branding Styles */
+
+	/* Text and Background colour */
+	body {
+		color: #000;
+		background-color:#BDBDBD;
+	}
+	
+	/* Header Colours */
+	h1, h2, h3, h4, h5, h6 {color: #333;}
+	
+	/* Link colour */
+	a, a:visited { color: #666;}
+
+	/* Logo */
+	#header #logo h1 {
+		width: 175px;
+		height: 110px;
+		background: transparent url(images/branding/dummylogo.png) no-repeat;
+	}
+
+	/* Strapline colour */
+	#header #strapline p {color: #000;}
+
+	/* App Feature List - define custom feature icons here -  */
+	ul.featurelist li.BulletImage { background-image: url(images/listcircle.png);}
+
+	/* User Review Quote */
+	blockquote.user_quote p {color: #666;}
+
+	</style>
+
+	<link rel="shortcut icon" href="images/branding/favicon.ico">
+
+</head>
+<body>
+
+	<div id="maincontainer" class="container">
+	
+		<div class="sixteen columns" id="header">
+		
+			<div id="logo" class="four columns alpha">
+<!--	[[4]]	# App title #		-->	
+				<h1>Cost 2 meet</h1>
+			</div>
+			
+			<div id="strapline" class="six columns omega offset-by-six">
+<!--	[[5]]	# App strapline #		-->	
+				<p><strong>Cost 2 meet</strong><br/>Effectively track how much your meeting costs</p>
+			</div>
+		</div>
+		<br class="clear"/>
+		<div class="sixteen columns" id="contentcontainer">
+		
+			<div class="four columns alpha">
+				<h2>Latest</h2>
+<!--	# Twitter Feed  #		-->	
+				<div class="tweet"></div> 
+<!--	[[6]]	# Twitter Follow Button : Enter your twitter link below #		-->	
+                <p>Version 1.0 now available for on the Windows Phone store</p>
+				<a href="https://twitter.com/vkoppaka" class="twitter-follow-button" data-show-count="false">Follow developer</a>
+			</div>
+				
+			<div id="phonescreens" class="six columns">
+				<div id="slider">
+<!--	[[7]]	# App Screenshots - Replace items in this list with your own 240x400px Images #		-->	
+					<ul>				
+						<li><img src="images/screenshots/screenshot0.png" alt="App Screenshot" /></li>
+						<li><img src="images/screenshots/screenshot1.png" alt="App Screenshot" /></li>
+						<li><img src="images/screenshots/screenshot2.png" alt="App Screenshot" /></li>
+                        <li><img src="images/screenshots/screenshot3.png" alt="App Screenshot" /></li>
+                        <li><img src="images/screenshots/screenshot4.png" alt="App Screenshot" /></li>
+					</ul>
+				</div>
+<!--	[[8]]	# App Marketplace Link - Find your app on the marketplace and insert the URL below#		-->	
+				<p class="downloadlink"><a href="http://wp7appsite.codeplex.com/">Download for Windows Phone</a></p>
+			</div>
+			
+			<div id="features" class="six columns omega">
+				<h2>Features</h2>
+<!--	[[9]]	# App Feature List #		-->	
+				<ul class="featurelist">				
+					<li class="BulletImage">Easily calculate how much your meeting costs</li>
+					<li class="BulletImage">Store and view history of your meeting costs</li>
+					<li class="BulletImage">Configurable settings</li>
+					<li class="BulletImage">Easily rate and share feedback about the app</li>
+					<li class="BulletImage"><a href="http://www.telerik.com/products/windows-phone.aspx">Built with RadControls for Windows Phone</a></li>
+				</ul>
+<!--	[[10]]	# User Reviews & Quotes #		-->	
+				<blockquote class="user_quote">
+					<p>The best app I use every day to track my meeting costs!</p>
+					<cite>Patrick Dunn, on twitter</cite>
+                    <p>A very well designed app</p>
+					<cite>Svetla Yankova, on twitter</cite>
+				</blockquote>
+			</div>
+		
+
+		</div>
+
+		
+		
+	</div>
+
+<!--	# Footer #		-->	
+	<div class="container" id="footer">
+		<p><a href="http://wp7appsite.codeplex.com/">WP7 App Site</a> by <a href="http://www.space-scape.com/">Nick Harewood</a></p>
+	</div>
+
+	<!-- Load all the JS -->
+	<script type="text/javascript" src="javascripts/jsLoader.js"></script>
+	<script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+	</script> 	
+
+	<script type="text/javascript">
+//	[[11]]	# UserVoice Widget code location
+	  var uvOptions = {};
+	  (function() {
+		var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
+		uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/qvvKZGQcHFJyzqfZNPnKA.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
+	  })();
+
+//	[[12]]	# Screenshot Slider options #		
+		$(document).ready(function(){	
+			$("#slider").easySlider({
+				auto: true, 
+				continuous: true,
+				pause: 5000,
+				controlsShow: false
+			});
+		});	
+	</script>
+
+</body>
+</html>
